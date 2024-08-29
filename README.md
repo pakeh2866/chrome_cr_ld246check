@@ -1,4 +1,4 @@
-# chrome_ex_ld246check
+# chrome_cr_ld246check
 链滴论坛的chrome扩展程序
 
 # 功能
