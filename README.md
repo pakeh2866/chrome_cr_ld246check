@@ -1,0 +1,2 @@
+# chrome_ex_ld246check
+链滴论坛的chrome扩展程序
