@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "链滴签到",
+    "description": "链滴论坛签到",
+    "version": "0.0.1",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "链滴论坛签到，每天第一次打开浏览器自动签到"},
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+	 "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://ld246.com/*" ],
+      "run-at": "document_end"
+   } ],
+    "permissions": [ "background","storage"],
+    "host_permissions": ["https://ld246.com/*"] 
+}
