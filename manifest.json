@@ -1,8 +1,9 @@
 {
     "manifest_version": 3,
     "name": "链滴签到",
-    "description": "链滴论坛签到",
-    "version": "0.0.1",
+    "description": "ld246.com checkin, automatic check-in every day when opening the browser for the first time",
+    "version": "0.0.2",
+    "default_locale": "en",
     "action":{
         "default_popup": "index.html",
         "default_title": "链滴论坛签到，每天第一次打开浏览器自动签到"},
